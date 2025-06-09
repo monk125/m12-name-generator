@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://um4kqk8dd5t4"]
+
+[ext_resource type="Script" uid="uid://bqe7fvnalcu4q" path="res://addons/m12_name_generator/DEMO/demo_scene.gd" id="1_njhkk"]
+
+[node name="DemoScene" type="Node"]
+script = ExtResource("1_njhkk")

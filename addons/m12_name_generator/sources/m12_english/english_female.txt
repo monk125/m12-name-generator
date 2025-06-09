@@ -1,0 +1,23 @@
+Abby,Adelyn,Adrianne,Alanda,Alberta,Alice,Alicia,Alison,Aliva,Amber,Annabel,Arabelle,Ashley,Audrey,Ava,Amanda
+Becca,Beatrix,Becky,Berenice,Beth,Betty,Blossom,Bubbles,Buttercup,Bonnie,Brienne,Bristol,Britney,Bryony
+Cal,Caley,Cammie,Cassie,Carolyn,Carol,Carmen,Catlyn,Cenedra,Celeste,Charleen,Charlotte,Chelsea,Cherish,Christy,Clarabelle,Clair,Clarice,Clarissa,Constance,Cordelia,Christine,Catherine
+Daenerys, Danna,Darla,Darlene,Dawn,Debbie,Deborah,Della
+Edina,Edwina,Elaine,Eleanor,Elisabeth,Elisa,Emily,Erica,Evelyn,Evangeline
+Faith,Fawn,Fern,Flo,Fuchsia,Fran
+Gabrielle,Bail,Georgia,Ginger,Glinda,Grace,Hailey,Harriet,Hazel,Heather,Hope,Hortense
+Ina,Ivy,Imogen
+Jackie,Jane,Janet,Janice,Jean,Jen,Jennifer,Jennelle,Jenny,Jill,Jewel,Jillian,Joan,Joanne,Jocelyn,Josie,Joyce,Julianna,Juliet,Justine
+Kailey,Kathy,Kate,Kat,Katie,Kathryn,Kelce,Kendra,Kira,Kylee
+Lacey,Laine,Landri,Lauren,Leala,Leanna,Lenore,Libby,Lilianna,Lisa,Liz,Lorena,Lucy,Lulu,Luna,Lyn,Lyndsey
+Mabel,Madelyn,Madge,Maggie,Margaret,Marge,Marigold,Marli,Matilda,Maxine,Maya,Meg,Melody,Mia,Mildred,Millie,Mina,Minnie,Mirabel,Molly,Morgan,Myna,Myrtle,Murgatroyd
+Nan,Nadie,Nancy,Nell,Nelia,Nelly,Nicki,Norma
+Olivia,Olive
+Paige,Pam,Pamela,Parker,Patricia,Pearl,Peg,Peggy,Penny,Penelope,Peri,Petunia,Pippa,Pollyanna,Polly
+Raynera,Rea,Ria,Riggs,Robin,Roberta,Rosaline,Rosamund,Rose,Roseanna,Roselyn,Roxanne,Rowena,Ryder
+Sabriel,Saffron,Sage,Sally,Sammy,Samantha,Sandra,Scarlett,Selma,Selina,Serenity,Sharna,SHelby,Shelly,Sheryl,Shirley,Sparrow,Stacie,Spencer,Starr,Steffie,Stephanie,Sue,SueEllyn,Susie,Susan
+Tamera,Tamsyn,Tammy,Tavi,Terri,Tess,Tiffany,Tillie,Tina,Tori,Toni,Traci,Trish,Trudy,Tyler
+Violet
+Wendy,Willow,Winnie,Wren
+Xandra
+Yardley
+Zara,Zenith
