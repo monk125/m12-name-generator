@@ -1,8 +1,8 @@
-# m12 name generator
+# m12 Name Generator
  An extensible name generator suitable for NPCs or units, based on plaintext source files
 
 Portions of this code were adapted from the excellent plugin const_generator by tischenkob, specifically the functionality to access tags in code as constants.
-If you appreciate that sort of thing and would like your whole project to have that convenience, check out const_generator
+If you appreciate that sort of thing and would like your whole project to have that convenience, check out [const_generator](https://github.com/game-gems/godot-const-generator) in the Godot Asset Library
 
 # About m12 Name Generator
 
