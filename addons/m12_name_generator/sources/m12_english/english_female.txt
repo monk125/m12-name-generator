@@ -10,7 +10,7 @@ Jackie,Jane,Janet,Janice,Jean,Jen,Jennifer,Jennelle,Jenny,Jill,Jewel,Jillian,Joa
 Kailey,Kathy,Kate,Kat,Katie,Kathryn,Kelce,Kendra,Kira,Kylee
 Lacey,Laine,Landri,Lauren,Leala,Leanna,Lenore,Libby,Lilianna,Lisa,Liz,Lorena,Lucy,Lulu,Luna,Lyn,Lyndsey
 Mabel,Madelyn,Madge,Maggie,Margaret,Marge,Marigold,Marli,Matilda,Maxine,Maya,Meg,Melody,Mia,Mildred,Millie,Mina,Minnie,Mirabel,Molly,Morgan,Myna,Myrtle,Murgatroyd
-Nan,Nadie,Nancy,Nell,Nelia,Nelly,Nicki,Norma
+Nan,Nadie,Nancy,Nell,Nelia,Nelly,Nicki,Norma,Nicole
 Olivia,Olive
 Paige,Pam,Pamela,Parker,Patricia,Pearl,Peg,Peggy,Penny,Penelope,Peri,Petunia,Pippa,Pollyanna,Polly
 Raynera,Rea,Ria,Riggs,Robin,Roberta,Rosaline,Rosamund,Rose,Roseanna,Roselyn,Roxanne,Rowena,Ryder

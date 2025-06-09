@@ -1,0 +1,16 @@
+## Provides access to all m12NameGenerator tags as constants. Updates every ~5s. Edit frequency of update in m12_name_generator.gd
+class_name m12NameGeneratorAutoTags
+const M_12_ENGLISH = "m12_english"
+const ENGLISH_FEMALE = "english_female"
+const ENGLISH_MALE = "english_male"
+const WESTERN = "western"
+const CONTEMPORARY = "contemporary"
+const AMERICAN = "american"
+const TEST = "test"
+const TEST_NAMES_FILE = "test_names_file"
+const M_12_FRENCH = "m12_french"
+const M_12_ORDINAL_NUMBERS = "m12_ordinal_numbers"
+const ORDINAL_ENGLISH_TEXT = "ordinal_english_text"
+const ORDINAL_IDENTIFIERS = "ordinal_identifiers"
+const ORDINAL_NUMERIC = "ordinal_numeric"
+const NUMERIC_IDENTIFIERS = "numeric_identifiers"
