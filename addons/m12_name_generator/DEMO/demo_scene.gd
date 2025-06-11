@@ -17,6 +17,10 @@ func _ready() -> void:
 	var name_pool = name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE])
 	print("Random English Name: " + name_pool.pick_random())
 	
+	#Be sure to check that you actually got names back, in case no results match your tags
+	var empty_name_pool= name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE, m12NameGeneratorAutoTags.COLOR])
+	print("How many names were found tagged both Male and Color? " + str(empty_name_pool.size()))
+	
 	#If you want your entities to have unique names, remove entries as you use them
 	name_pool.shuffle()
 	var unique_name : String = name_pool.pop_back()
