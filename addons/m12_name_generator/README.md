@@ -1,3 +1,4 @@
+![m12_icon](images/icon.png)
 # m12 Name Generator
  An extensible name generator suitable for NPCs or units, based on plaintext source files
 
@@ -6,15 +7,15 @@ If you appreciate that sort of thing and would like your whole project to have t
 
 # About m12 Name Generator
 
-The m12 Name Generator provides a class to generate random names for NPCs (e.g Alice, Bob) or units (e.g 101st Airborne)
+The m12 Name Generator provides a class which returns an array of words (presumably but not necessarily names) which, with minimal effort, can be used to generate random names for NPCs (e.g Alice, Bob Wilkins, Ms. Appleby), units (e.g 101st Airborne, Red Squadron), towns (North Sunnyville), or whatever else you want.
 
-The generator derives these names from plaintext files located in the "sources" subfolder. These sources are extensible, meaning the user can add their own folders and files to this source folder and have their names generatable (csv and json files are currently not supported)
+The generator derives these words from plaintext files located in the "sources" subfolder. These sources are extensible, meaning the user can add their own folders and files to this source folder and have their names generatable (csv and json files are currently not supported.)
 
 These sources are organized with a tag system. Filenames and parent folder names are applied to their children automatically, and further tags can be defined in a "tags" file.
 
 Tags can be accessed as constants in the editor from the class "m12NameGeneratorAutoTags", e.g m12NameGeneratorAutoTags.m12_english
 
-A demo scene located in the DEMO subfolder demonstrates some basic utilty of this name generator. "demo_scene.gd" provides code examples whose output is printed to console if you run the scene.
+A demo scene located in the DEMO subfolder demonstrates some basic use cases of this name generator. "demo_scene.gd" provides code examples whose output is printed to console if you run the scene.
 
 # Documentation
 
@@ -22,7 +23,7 @@ A demo scene located in the DEMO subfolder demonstrates some basic utilty of thi
 
 In the script you want to use the name generator, instantiate it as a new object with m12NameGenerator.new() At this time the object will read in all the names in the "sources" folder and add them to a dictionary as keys. The values of these keys is an array of strings, the tags used to access the names. Tags are applied automatically (see tags header below for details)
 
-To extract the names from the object, the generate_name_pool() method returns an array of names based on the array of tags passed in. If a name has the "m12_english", "english_male", and "american" tags, for example, then passing in any one of those tags will result in that name being added to the name pool
+To extract the words from the object, the generate_name_pool() method returns an array of names based on the array of tags passed in. If a name has the "m12_english", "english_male", and "american" tags, for example, then passing in any one of those tags will result in that name being added to the name pool
 
 m12NameGenerator also has a get_all_tags() method which returns an array of all the tags that m12NameGenerator can see. Useful for debugging if your tags are not functioning as expected
 
@@ -30,9 +31,11 @@ For examples of some of the ways you can build or manipulate names, refer to dem
 
 ## Sources
 
-The sources folder is where m12NameGenerator looks to pull names from. It expects names to be stored in plaintext files (e.g .txt, .md) within subfolders of the sources folder. These files should have only the names seperated by commas or newline (\n) breaks. There is some tolerance for stripping spaces and tabs and things, but if you are getting junk output consult the integrity of your sources. There is currently not support for .csv or .json files
+The sources folder is where m12NameGenerator looks to pull names from. It expects names to be stored in plaintext files (e.g .txt, .md) within subfolders of the sources folder. These files should have only the names seperated by commas or newline (\n) breaks. There is some tolerance for stripping spaces and tabs and things, but otherwise the m12NameGenerator does not attempt to format the source files (no automatic capitalization of names, for example.) There is currently not support for .csv or .json files
 
 You can add your own sources easily. First, add a subfolder to the "sources" folder. Then add your text files to that subfolder (or subfolders) and they will be automatically found by m12NameGenerator! Note that files placed directly in "sources" will not be used- add them to a subfolder.
+
+Because .txt and .md files are not automatically treated as resources by Godot, they will NOT be added to your exported project automatically. In order to use m12NameGenerator in an exported project you will need to manually set the non-resource export filter in the Export dialog to include the file extensions of your sources (e.g *.txt, *.md). Consult the FileAccess documentation and/or m12_export_settings.jpg to see exactly what you need to change.
 
 ## Tags
 

@@ -3,7 +3,7 @@ extends EditorPlugin
 
 
 ## This sets whether the master tag list is only updated when the project loads
-const ONLY_ON_LOAD := false
+const ONLY_RUN_ON_LOAD := false
 ## This is how often the project is scanned for changes (in seconds)
 const GENERATION_FREQUENCY := 5.0
 
@@ -31,11 +31,11 @@ func _enter_tree() -> void:
 
 	mutex = Mutex.new()
 	illegal_symbols_regex = RegEx.create_from_string("[^\\p{L}\\p{N}_]")
-
+	
 	var timer := Timer.new()
 	timer.name = PLUGIN_NAME.to_pascal_case() + "Timer"
 	timer.wait_time = GENERATION_FREQUENCY
-	timer.one_shot = ONLY_ON_LOAD
+	timer.one_shot = ONLY_RUN_ON_LOAD
 	timer.autostart = true
 	timer.timeout.connect(WorkerThreadPool.add_task.bind(generate_filepath_class, false, "Generating filepaths"))
 	add_child(timer)

@@ -1,6 +1,5 @@
 extends Node
 
-
 func _ready() -> void:
 	
 	#When you want to generate names, generate a new m12NameGeneratorObject
@@ -25,6 +24,3 @@ func _ready() -> void:
 
 	#If you want to see what tags a name has, access the dictionary in your m12NameGenerator instance with one of the names from it
 	print("The tags for " + unique_name + " are " + str(name_generator.m12_name_dictionary[unique_name]))
-
-	#If you want to see what tags a name has, access the dictionary in your m12NameGenerator instance with one of the names from it
-	print("The tags for " + "101st" + " are " + str(name_generator.m12_name_dictionary["101st"]))

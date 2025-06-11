@@ -86,7 +86,7 @@ func _strip_path(path: String) -> String:
 	return path
 
 
-## Optionally pass an Array of tags, return an Array of names which have all tags (if no tags, all names will be returned)
+## Optionally pass an Array of tags, return an Array of names which have all tags (if no tags, all names in sources will be returned)
 func generate_name_pool(tags: Array[String] = []) -> Array[String]:
 	if not tags:
 		return m12_name_dictionary.keys()

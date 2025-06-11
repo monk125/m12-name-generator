@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="m12 Name Generator"
+run/main_scene="uid://um4kqk8dd5t4"
 config/features=PackedStringArray("4.4", "Forward Plus")
 
 [editor_plugins]
