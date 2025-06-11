@@ -1,4 +1,5 @@
-![m12_icon](images/icon.png)
+![](images\icon)
+
 # m12 Name Generator
  An extensible name generator suitable for NPCs or units, based on plaintext source files
 
