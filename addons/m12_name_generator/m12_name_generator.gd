@@ -49,6 +49,7 @@ func generate_filepath_class() -> void:
 	if not mutex.try_lock(): return
 	var walking_started := Time.get_ticks_usec()
 
+
 	var current_sources_tags := walk(SOURCES_PATH)
 	if previous_tags_list_array == current_sources_tags:
 		return
