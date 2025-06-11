@@ -1,4 +1,4 @@
-# <img src="addons/m12_name_generator/images/icon" width="100" height="100">
+# <img src="addons/m12_name_generator/images/icon" width="200" height="200">
  An extensible name generator suitable for NPCs or units, based on plaintext source files
 
 Portions of this code were adapted from the excellent plugin const_generator by tischenkob, specifically the functionality to access tags in code as constants.
