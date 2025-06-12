@@ -1,0 +1,4 @@
+boar, lion, leopard, bat, bear, panther, wolf, toad
+dolphin, kangaroo, hound, horse, tiger, hart, camel
+swan, crow, rooster, hawk, martlet, shrike, eagle, finch, falcon, chicken
+fish, pike, eel, seahorse

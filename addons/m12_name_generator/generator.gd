@@ -86,23 +86,50 @@ func _strip_path(path: String) -> String:
 	return path
 
 
-## Optionally pass an Array of tags, return an Array of names which have all tags (if no tags, all names in sources will be returned)
-func generate_name_pool(tags: Array[String] = []) -> Array[String]:
-	if not tags:
+## Optionally pass an Array of tags to get, return an Array of names which have all tags (if no tags to get, all names in sources will be returned)
+## Any matches to excluded_tags will remove a name from output
+func generate_name_pool(tags_to_get: Array[String] = [], excluded_tags: Array[String] = []) -> Array[String]:
+	if not tags_to_get:
 		return m12_name_dictionary.keys()
 	var name_pool : Array[String] = []
 	for name: String in m12_name_dictionary.keys():
-		if tags.all(func(tag): return m12_name_dictionary[name].has(tag)):
+		if excluded_tags.any(func(tag): return m12_name_dictionary[name].has(tag)):
+			break
+		if tags_to_get.all(func(tag): return m12_name_dictionary[name].has(tag)):
 			name_pool.append(name)
 	
 	return name_pool
 
 
-## Returns an Array of all the tags m12NameGenerator can see. Useful for debugging
-func get_all_tags() -> Array[String]:
-	var tag_list : Array[String] = []
+## Returns an Dictionary with all the tags m12NameGenerator can see as well as their frequency. Useful for debugging or basic analysis
+func get_all_tags() -> Dictionary[String, int]:
+	var tag_list : Dictionary[String, int]
 	for name: String in m12_name_dictionary.keys():
 		for tag: String in m12_name_dictionary[name]:
 			if not tag_list.has(tag):
-				tag_list.append(tag)
+				tag_list[tag]= 1
+			else:
+				tag_list[tag] += 1
+	tag_list.sort()
 	return tag_list
+	
+	
+## Returns whether the name has the given tag
+func name_has_tag(name: String, tag: String) -> bool:
+	if m12_name_dictionary.has(name):
+		if m12_name_dictionary[name].has(tag):
+			return true
+	return false
+	
+
+## Returns the names fed in capitalized and with spaces between them. If single_word is true, returns the compound without spaces (e.g Blackhound instead of Black Hound)
+func create_compound_name(names: Array[String], single_word := false) -> String:
+	var compound_name: String = ""
+	var interstitial: String = " "
+	if single_word:
+		interstitial= ""
+	for name : String in names:
+		compound_name= compound_name + name + interstitial
+	compound_name= compound_name.strip_edges()
+	compound_name= compound_name.capitalize()
+	return compound_name

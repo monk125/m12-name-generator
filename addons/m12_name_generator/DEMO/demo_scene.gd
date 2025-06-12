@@ -7,18 +7,22 @@ func _ready() -> void:
 	
 	#The get_all_tags() method returns all tags available to the name generator for debug purposes
 	var tag_list := name_generator.get_all_tags()
-	tag_list.sort()
 	print("List of all tags: " + str(tag_list))
 
 	#Get a pool of names from the generator by passing an array of tags to generate_name_pool()
 	#Rather than typing strings directly, they can be accessed as constants via m12NameGeneratorAutoTags
 	#generate_name_pool() will return an array of names which possess all of the tags passed in as argument
 	#If no tags are passed, generate_name_pool() will return all names in all sources
-	var name_pool = name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE])
-	print("Random English Name: " + name_pool.pick_random())
+	var name_pool := name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE])
+	print("Random Male Name: " + name_pool.pick_random())
+	
+	#You can also pass tags to exclude from the result
+	var full_color_pool := name_generator.generate_name_pool([m12NameGeneratorAutoTags.COLOR])
+	var culled_color_pool := name_generator.generate_name_pool([m12NameGeneratorAutoTags.COLOR], [m12NameGeneratorAutoTags.X_11_COLORS])
+	print("Full color pool has " + str(full_color_pool.size()) + " entries, culling x11 brings it down to " + str(culled_color_pool.size()))
 	
 	#Be sure to check that you actually got names back, in case no results match your tags
-	var empty_name_pool= name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE, m12NameGeneratorAutoTags.COLOR])
+	var empty_name_pool:= name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE, m12NameGeneratorAutoTags.COLOR])
 	print("How many names were found tagged both Male and Color? " + str(empty_name_pool.size()))
 	
 	#If you want your entities to have unique names, remove entries as you use them
@@ -26,5 +30,24 @@ func _ready() -> void:
 	var unique_name : String = name_pool.pop_back()
 	print("Is " + unique_name + " a unique name? It's " + str(not name_pool.has(name)) + "!")
 
+	#Be aware of the format your names are in, and whether they need help from String methods for formatting
+	#For compound names, m12NameGenerator has a helper function called create_compound_name to glue the names together (literally if single_word is true)
+	var animal_pool := name_generator.generate_name_pool([m12NameGeneratorAutoTags.ANIMALS])
+	var scary_name := name_generator.create_compound_name([culled_color_pool.pick_random(), animal_pool.pick_random()])
+	var sidekick_last_name := name_generator.create_compound_name([culled_color_pool.pick_random(), animal_pool.pick_random()], true)
+	var sidekick_name := name_generator.create_compound_name([name_pool.pick_random(), sidekick_last_name])
+	print("Behold, the brave knight known only as the " + scary_name + " and their squire, " + sidekick_name)
+
 	#If you want to see what tags a name has, access the dictionary in your m12NameGenerator instance with one of the names from it
 	print("The tags for " + unique_name + " are " + str(name_generator.m12_name_dictionary[unique_name]))
+	
+	#You can check for a particular tag at runtime with the helper function name_has_tag()
+	var formal_name: String
+	var male_honorifics_pool := name_generator.generate_name_pool([m12NameGeneratorAutoTags.HONORIFICS_MALE])
+	var female_honorifics_pool := name_generator.generate_name_pool([m12NameGeneratorAutoTags.HONORIFICS_FEMALE])
+	var surname_pool := name_generator.generate_name_pool([m12NameGeneratorAutoTags.SURNAME])
+	if name_generator.name_has_tag(unique_name, m12NameGeneratorAutoTags.MALE):
+		formal_name= name_generator.create_compound_name([male_honorifics_pool.pick_random(), unique_name, surname_pool.pick_random()])
+	else:
+		formal_name= name_generator.create_compound_name([female_honorifics_pool.pick_random(), unique_name, surname_pool.pick_random()])
+	print("To " + formal_name + ",")
