@@ -1,4 +1,4 @@
-# <img src="addons/m12_name_generator/images/icon" width="200" height="200">
+# <img src="addons/m12_name_generator/images/icon.png" width="200" height="200">
 
 # m12 Name Generator
  An extensible name generator suitable for NPCs, units, town names, or whatever use you might have for random access to plaintext source files. Features an autotag system, a demo scene/script, and functions to assist with manipulating the collected data.
