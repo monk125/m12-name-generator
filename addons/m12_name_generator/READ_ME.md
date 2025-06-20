@@ -30,7 +30,7 @@ m12_name_dictionary is the Dictionary generated to contain all the names (the wo
 
 ### Methods
 
-generate_name_pool(tags_to_get: Array[String], tags_to_exclude: Array[String]) method returns an array of names which contain ALL of the tags in the tags_to_get array and NONE of the tags in tags_to_exclude. It is used to extract the words from m12_name_dictionary. If a name has the "m12_defaults", "english", and "male" tags, for example, then passing in any one of those tags will result in that name being added to the name pool. If passing in ["male","female"], by contrast, then the returned names will have BOTH tags, and if no name in m12_name_dictionary has all tags in the array (the likely result from, say, ["male", "color"]) then an empty array will be returned.
+generate_name_pool(tags_to_get: Array[String], tags_to_exclude: Array[String]) method returns an array of names which contain ALL of the tags in the tags_to_get array and NONE of the tags in tags_to_exclude. It is used to extract the words from m12_name_dictionary. If a name has the "m12_defaults", "english", and "male" tags, for example, then passing in any one of those tags will result in that name being added to the name pool. If passing in ["male","female"], by contrast, then the returned names will have BOTH tags, and if no name in m12_name_dictionary has all tags in the array (the likely result from, say, ["male", "cryptid"]) then an empty array will be returned.
 
 get_all_tags() returns a dictionary of all the tags that m12NameGenerator can see (sorted alphabetically by tag) paired with their frequency of occurence in the sources. Useful for debugging if your tags are not functioning as expected, or basic analysis of your tags
 

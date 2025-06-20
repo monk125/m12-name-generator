@@ -1,0 +1,17 @@
+Acheron,Achilles,Admetus,Adonis,Adrastos,Aero,Aeneas,Agamemnon,Aithan,Ajax,Alcides,Alexander,Alexis,Alphaeus,Ambrose,Amethyst,Ananias,Andreas,Andrew,Anius,Apelles,Apostolos,Arcturus,Argus,Aristaeus,Aristos,Arius,Artemus,Astro,Athanasius,Atreus
+Balius,Barnabas,Bartimaeus,Biton,Boreas
+Cadmus,Calais,Calix,Callias,Cameo,Carolos,Cassander,Castor,Chiron,Christopher,Cleon,Coriander,Cyril
+Damian,Damon,Demetrius,Dio,Dion,Dorian,Draco
+Echo,Endymion,Erasmus,Erastes,Eridian,Ermin,Eustace
+Galen,George,Georgios,Greg,Gregory,Gryphon
+Hector,Helios,Heracles,Hero,Heron,Hesiod,Homer,Hilarius
+Icarus,Indigo,Ioannis
+Jason,Jairus,Jericho,Judas
+Kairos,Kallistos,Konstantinos,Kyros,Kyrie
+Laertes,Leander,Leonidas,Leontius,Linus,Luke,Lysander
+Macarius,Matthias,Maximos,Michail,Mithras,Nestor,Nicander,Nicanor,Nicolas,Nicholas,Nicodemus,Nicanor,Nike
+Oleander,Odysseus,Orestes,Orion,Orpheus
+Pavlos,Peter,Perseus,Phil,Philander,Philemon,Philip,Phinehas,Phineas,Pollux,Priam,Praxis
+Simon,Sebastian,Simeon,Sirius,Solon,Sophocles,Stefanos,Stephan,Steven
+Telemachus,Teon,Thaddeus,Tharin,Theo,Theodore,Theon,Theophilus,Theron,Thom,Thomas,Tim,Timon,Timothy,Titus,Tobias
+Vander,Vasilis,Xander,Xanthus,Xenon,Xylon,Zacharias,Zenon,Zeta,Zephyr

@@ -22,8 +22,8 @@ func _ready() -> void:
 	print("Full color pool has " + str(full_color_pool.size()) + " entries, culling x11 brings it down to " + str(culled_color_pool.size()))
 	
 	#Be sure to check that you actually got names back, in case no results match your tags
-	var empty_name_pool:= name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE, m12NameGeneratorAutoTags.COLOR])
-	print("How many names were found tagged both Male and Color? " + str(empty_name_pool.size()))
+	var empty_name_pool:= name_generator.generate_name_pool([m12NameGeneratorAutoTags.MALE, m12NameGeneratorAutoTags.CRYPTID])
+	print("How many names were found tagged both Male and Cryptid? " + str(empty_name_pool.size()))
 	
 	#If you want your entities to have unique names, remove entries as you use them
 	name_pool.shuffle()

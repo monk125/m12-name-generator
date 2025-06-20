@@ -1,0 +1,15 @@
+Aegir,Ahti,Aimo,Ake,Alesund,Algot,Alrik,Alvar,Amund,Anker,Are,Arnbjorn,Arvid,Asmund,Ask,Atli,Audun,Axel
+Balder,Bertil,Birger,Birre,Boden,Bragi,Brindle,Broder,Brynjar,Brynjulf,Britt
+Canute,Christoffer,Dagr,Dane,Daube,Diederic
+Ebbe,Edvard,Egil,Einar,Eindride,Eivin,Elof,Emrik,Erik,Erling,Esben
+Forseti,Folke,Fredrik,Frey
+Gard,Geir,Gerik,Gisli,Gunnar,Haakon,Halden,Hans,Hanson,Harald,Harold,Heimdall,Henrik
+Ilmari,Ingo,Ivar,Jarmo,Jensen,Jokull,Jotunn
+Kalle,Kari,Kirk,Krister,Kristian,Kristoff
+Leif,Leiv,Lund,Linus,Lundy
+Magnar,Maz,Melker,Munin,Nils
+Olaf,Olai,Olin,Olsen,Orn
+Ragnar,Rasmussen,Reidar,Rolf,Runar
+Sagen,Sigmar,Sigurd,Sky,Soren,Sten,Sundri,Sven
+Tappen,Tarl,Thorbiorn,Thorin,Thorir,Thror,Thrain,Tomas,Torolf,Torsten,Torvald,Trygg,Turi,Tyr
+Ullr,Valdemar,Vali,Vidar,Viggo,Wray,Yngri,Yorick

@@ -1,0 +1,13 @@
+Adda,Aeron,Afon,Aled,Alun,Andras,Arawn,Arthur
+Baeddan,Bedivere,Bedwyr,Berwyn,Bevan,Bleddyn,Bowen,Bran,Bricen,Broderick,Brychan,Brynmor
+Cadell,Cadewyn,Cadfael,Cadogan,Caerwyn,Cadfan,Cai,Cambrie,Caradoc,Carwyn,Celyn,Ceron,Cledwyn,Collen,Cledwyn,Colwyn
+Dafydd,Derwyn,Dillan,Dilwyn,Dwyn,Dylan
+Ebrill,Eirian,Eirwyn,Elisedd,Elwyn,Emrys,Evan
+Gaerwyn,Gaiwan,Garan,Gareth,Geraint,Gerallt,Glynn,Griffin,Griffith,Gruffudd,Gwalchmai,Gwydion,Gwyn
+Heddwyn,Howell,Hywel,Idwal,Ifan,Ilar,Islwyn,Iorweth,Kynan
+Llewellyn,Lloyd,Llywelyn
+Mabon,Madoc,Madog,Meilyr,Meredith,Merewyn,Meriadoc,Mervyn,Meurig,Mordred,Morgan,Myrddin
+Nye,Owain,Pasgen,Pembroke,Pritchard,Pugh,Pwyll
+Ragle,Reese,Rhun,Rhydian,Rhys,Romney
+Siani,Siarl
+Talan,Taliesin,Taran,Trefor,Tremain,Trevelian,Tristan,Urian,Uther,Vaughan,Wynn

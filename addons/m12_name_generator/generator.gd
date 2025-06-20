@@ -86,7 +86,7 @@ func _strip_path(path: String) -> String:
 	return path
 
 
-## Optionally pass an Array of tags to get, return an Array of names which have all tags (if no tags to get, all names in sources will be returned)
+## Optionally pass an Array of tags to get, return an Array of names which have ALL tags (if no tags to get, all names in sources will be returned)
 ## Any matches to excluded_tags will remove a name from output
 func generate_name_pool(tags_to_get: Array[String] = [], excluded_tags: Array[String] = []) -> Array[String]:
 	if not tags_to_get:
@@ -122,7 +122,7 @@ func name_has_tag(name: String, tag: String) -> bool:
 	return false
 	
 
-## Returns the names fed in capitalized and with spaces between them. If single_word is true, returns the compound without spaces (e.g Blackhound instead of Black Hound)
+## Returns the names fed in capitalized and with spaces between them. If single_word is true, returns the compound without spaces (e.g Blackhound instead of Black Hound, be careful if your source files already include compound names)
 func create_compound_name(names: Array[String], single_word := false) -> String:
 	var compound_name: String = ""
 	var interstitial: String = " "

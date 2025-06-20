@@ -1,0 +1,1 @@
+Hi! Anything you put next to this (that is, directly in the sources folder) won't be found by the m12NameGenerator. Instead, create a subfolder for your own use, such as your username, project name, etc. For more information about adding your own names, refer to READ_ME.md

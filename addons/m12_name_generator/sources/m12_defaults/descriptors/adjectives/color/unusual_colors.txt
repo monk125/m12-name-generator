@@ -1,6 +1,6 @@
 azul, azure, cobalt, cerulean, denim, indigo, lavender, navy, periwinkle, sapphire, ultramarine
 charcoal, ebony, jet, taupe, onyx, olive
-auburn, almond, beige, bronze, buff, burgundy, burnt sienna, burnt umber, caramel, copper, citron, chestnut, dun, ecru, goldenrod, raw umber, ochre, maroon, mahogany, khaki, russet, rust, gold, sepia, sienna, tan, taupe, umber, walnut
+auburn, almond, beige, bronze, buff, burgundy, caramel, copper, citron, chestnut, dun, ecru, goldenrod, ochre, maroon, mahogany, khaki, russet, rust, gold, sepia, sienna, tan, taupe, umber, walnut
 cyan, aqua, aquamarine, capri, mint, teal, turquoise
 silver, platinum
 chartreuse, celadon, emerald, jade, lime, viridian

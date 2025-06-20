@@ -1,0 +1,15 @@
+Aderyn,Adwen,Aelwen,Aeronwen,Afon,Annwyl,Angharad,Arianwen,Arlais,Awena
+Bethan,Bethwyn,Blodwyn,Blodwedd,Branwen,Bronwyn,Brynn
+Cadewyn,Caerwyn,Cai,Cari,Cambrie,Carys,Catrin,Ceinwen,Celyn,Ceri,Cerys,Delyth,Dilys,Dwyn
+Eira,Eirian,Eirlys,Elwyn,Emlyn,Enfys,Enid
+Ffan
+Gaenor,Gaiwan,Garan,Gladys,Glenda,Glenys,Glyn,Guinevere,Gwen,Gwendolyn,Gwenhwyfar,Gwenifer,Gwyneth
+Hafwen
+Igraine,Ilar,Iorwen,Kiah
+Lleucu,Llywelya,Lowri,Lunet
+Mabli,Mabyn,Madrona,Madwen,Mared,Meghan,Meredith,Merlyn,Mererid,Morgan,Morgana,Morgause,Morwen,Mostyn
+Nerys,Nesta,Nia,Ninian
+Olwen,Owena,Parry,Pembroke
+Raewyn,Reese,Rhian,Rhiannon,Rhonda,Rhoswen,Rhoslyn
+Seren,Sian,Siani,Sioned,Siriol,Sulwyn
+Talaith,Tanwen,Tegan,Telyn,Terrwyn,Tristan,Uther,Wynn,Wynne
