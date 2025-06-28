@@ -1,0 +1,17 @@
+angled,angular
+bent,big,broad,bulbous,bulging
+chubby,circular,closed,colossal,convex,concave,crooked,curved
+deep,diminutive,dinky
+fat,flat,firm,fuzzy
+gargantuan,giant,gigantic,gnarled,grand
+high,hollow,hard,huge
+lanky,large,low
+mammoth,massive,midget,miniature,miniscule
+narrow
+oblique,oval
+plain,plump,pointy,portly
+regular,refined,round,rigid,rotund
+scrawny,shallow,skinny,square,steep,straight,sharp,short,skewed,small,smooth,solid,square,stiff,symmetrical,slender,slim,squat
+tall,tapered,teeny,thick,tiny,tough,twisted
+vast
+warped,wide

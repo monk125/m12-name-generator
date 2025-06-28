@@ -1,0 +1,16 @@
+abrasive,abusive,active,adaptive,adoptive,alternative,appreciative,apprehensive,argumentative,assertive,attentive,attractive,authoritative
+captive,celebrative,combative,combustive,commemorative,communicative,comprehensive,compulsive,cooperative,creative
+deceptive,decisive,deductive,defective,defensive,definitive,demonstrative,detractive,diminutive,dismissive
+effective,effusive,elaborative,elusive,evasive,exhaustive,explosive,expressive,extensive
+festive,furtive
+illuminative,illusive,illustrative,imaginative,imitative,immersive,impassive,impressive,impulsive,inactive,incisive,ineffective,innovative,inobtrusive,inoffensive,interpretive,intrusive,intuitive,invasive
+laudative
+manipulative,massive,meditative
+native
+objective,obliterative,obsessive,obstructive,obtrusive,offensive
+passive,perceptive,permissive,persuasive,pervasive,possessive,primitive,progressive,prospective,protective
+receptive,recessive,reciprocative,reclusive,recuperative,redemptive,reflective,reflexive,regressive,repetitive,reprehensive,repressive,responsive,retentive
+seclusive,secretive,seductive,selective,sensitive,submissive,substantive
+talkative,tentative,transformative
+unappreciative,unimaginative,unimpressive,unresponsive,unsupportive
+vegetative

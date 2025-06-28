@@ -1,0 +1,1 @@
+gold,silver,copper,tin,lead,iron,platinum,bronze,brass,steel,pewter,electrum

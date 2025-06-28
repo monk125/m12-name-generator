@@ -36,7 +36,13 @@ get_all_tags() returns a dictionary of all the tags that m12NameGenerator can se
 
 name_has_tag(name: String, tag: String) returns true if the name has the tag, false otherwise (or if the name does not exist in m12_name_dictionary.) Useful for logic, for example determining whether a random name has the male tag.
 
+names_share_a_tag(name1: String, name2: String, excluded_names: Array[String]) returns true if the names share a tag that is not also in the optional list of excluded tags (useful for excluding high-level folder tags) and false otherwise
+
+filter_pool_for_tag(name_pool: Array[String], tag: String) returns an array of names from the provided name pool which all have the provided tag. Useful for refining already generated name pools
+
 create_compound_name(names: Array[String], single_word: bool) takes the array of names, merges them with a space in between, then capitalizes the result and returns it. If single_word is true, the names are merged with no spaces in between (will e.g return "Goldmane" instead of "Gold Mane")
+
+create_x_the_y(x_name: String, y_name: String) returns the names capitalized with " the " in between. Useful for making name structures like "Clooney the Scourge" or "Arthur the Black"
 
 For examples of some of the ways you can build or manipulate names, refer to demo_scene.gd in the DEMO folder
 

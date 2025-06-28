@@ -1,0 +1,16 @@
+	attractive,adorable
+	bald,beautiful
+	chubby,clean,cute
+	dazzling,drab
+	elegant
+	fancy,fit,flabby
+	glamorous,gorgeous,grizzled
+	handsome
+	long
+	magnificent,muscular
+	plain,plump,pretty
+	quaint
+	scruffy,shapely,short,skinny,stocky
+	ugly
+	unkempt
+	unsightly

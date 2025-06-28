@@ -57,7 +57,7 @@ func generate_filepath_class() -> void:
 	debug("Generating " + GENERATED_CLASS_NAME + " class...")
 
 	var generated_file := FileAccess.open(MASTER_TAG_LIST_PATH, FileAccess.WRITE)
-	generated_file.store_line("## Provides access to all m12NameGenerator tags as constants. Updates every ~5s. Edit frequency of update in m12_name_generator.gd")
+	generated_file.store_line("## Provides access to all m12NameGenerator tags as constants. Updates every ~" + str(GENERATION_FREQUENCY) +"s. Edit frequency of update in m12_name_generator.gd")
 	generated_file.store_line("class_name " + GENERATED_CLASS_NAME)
 	for tag in current_sources_tags:
 		write_tag_to_file(generated_file, tag)

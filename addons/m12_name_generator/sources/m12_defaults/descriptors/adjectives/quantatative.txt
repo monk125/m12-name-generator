@@ -1,0 +1,10 @@
+abundant,all,any
+double
+enough,equal,excess,extra
+few,full
+incalculable
+limited,little
+many,most
+numerous
+scarce,some,sparse,substantial
+whole

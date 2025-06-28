@@ -24,6 +24,7 @@ func _init() -> void:
 
 func _check_dir(dir: DirAccess, path: String, collected_tags: Array[String]) -> Array[String]:
 	var file_list := dir.get_files()
+	var dir_tags: Array[String] = []
 	if not collected_tags.has(dir.get_current_dir().get_file()):
 		collected_tags.append(dir.get_current_dir().get_file())
 	if file_list.size() > 0:
@@ -39,6 +40,7 @@ func _check_dir(dir: DirAccess, path: String, collected_tags: Array[String]) -> 
 					tag= tag.strip_edges()
 					if not collected_tags.has(tag):
 						collected_tags.append(tag)
+						dir_tags.append(tag)
 				file.close()
 		
 		for file_list_entry: String in file_list:
@@ -73,7 +75,10 @@ func _check_dir(dir: DirAccess, path: String, collected_tags: Array[String]) -> 
 		_check_dir(dir, sub_dir_path, collected_tags)
 		collected_tags.erase(sub_dir)
 		dir.change_dir(current_dir)
-			
+	
+	for dir_tag in dir_tags:
+		collected_tags.erase(dir_tag)
+		
 	return collected_tags
 
 
@@ -120,7 +125,21 @@ func name_has_tag(name: String, tag: String) -> bool:
 		if m12_name_dictionary[name].has(tag):
 			return true
 	return false
-	
+
+
+## Returns whether two names share a tag, ignoring a set of excluded tags
+func names_share_a_tag(name1: String, name2: String, excluded_tags: Array[String] = []) -> bool:
+	if m12_name_dictionary.has(name1) and m12_name_dictionary.has(name2):
+		for tag : String in m12_name_dictionary[name1]:
+			if name_has_tag(name2, tag) and not excluded_tags.has(tag):
+				return true
+	return false
+
+
+## Returns an array of names from the provided name pool which all have the provided tag. Useful for refining already generated name pools
+func filter_pool_for_tag(name_pool: Array[String], tag: String) -> Array[String]:
+	return name_pool.filter(func(name): return name_has_tag(name, tag))
+
 
 ## Returns the names fed in capitalized and with spaces between them. If single_word is true, returns the compound without spaces (e.g Blackhound instead of Black Hound, be careful if your source files already include compound names)
 func create_compound_name(names: Array[String], single_word := false) -> String:
@@ -133,3 +152,11 @@ func create_compound_name(names: Array[String], single_word := false) -> String:
 	compound_name= compound_name.strip_edges()
 	compound_name= compound_name.capitalize()
 	return compound_name
+
+
+##Returns the names given capitalized with " the " in between them. Useful for name structures like "Rodric the Bold" or "Clooney the Scourge"
+func create_x_the_y_name(x_name: String, y_name: String) -> String:
+	x_name= x_name.capitalize()
+	y_name= y_name.capitalize()
+	var full_name : String = x_name + " the " + y_name
+	return full_name

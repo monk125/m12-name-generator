@@ -1,0 +1,1 @@
+head,shoulder,arm,leg,hand,foot,toe,finger,belly,back,chest,eye,nose,ear,lips

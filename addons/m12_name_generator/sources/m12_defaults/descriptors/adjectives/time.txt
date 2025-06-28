@@ -1,0 +1,11 @@
+ancient
+brief
+early
+fast,future,first
+late,long,last,later,latest,longer,longest
+modern
+old
+quick
+rapid
+short,slow,swift,soon,sooner,soonest,shorter,shortest
+young

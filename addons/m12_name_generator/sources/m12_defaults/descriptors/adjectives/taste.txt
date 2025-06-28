@@ -1,0 +1,17 @@
+acidic,acrid
+bitter,bland,buttery,burnt
+cool,creamy,cheesy,citrusy,clean
+delicious,disgusting,dry,delicate
+eggy
+fresh,fishy,flavorful
+greasy
+juicy
+hot
+mild,minty,moist
+nutritious,nutty
+putrid,peppery,plain
+rancid,ripe,rotten,rubbery
+salty,savory,sour,spicy,spoiled,stale,sweet,smokey,sugary
+tangy,tart,tasteless,tasty,tender
+yummy,yeasty
+zesty

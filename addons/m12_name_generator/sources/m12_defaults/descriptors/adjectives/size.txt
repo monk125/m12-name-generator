@@ -1,0 +1,14 @@
+big,broad
+colossal,compact
+elfin,enormous,epic,expansive,extensive
+fat
+gargantuan,gigantic,great,greater,greatest,grand
+huge,hulking
+immense,infinitesimal
+large,little
+mammoth,massive,miniature,minute,miniscule
+paltry,petite,puny
+scrawny,short,small
+tall,teeny,tiny,titanic
+vast
+wide,wee

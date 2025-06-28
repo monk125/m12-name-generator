@@ -1,0 +1,1 @@
+axe,club,flail,mace,morningstar,quarterstaff,staff,hammer,warhammer,battleaxe,sword,dagger,falchion,katana,longsword,broadsword,saber,shortsword,scythe,poleaxe,spear,scimitar,halberd,gauntlet,greatsword,kukri,bardiche,tomahawk,lance,pike,trident,glaive,guisarme,whip,javelin,harpoon
