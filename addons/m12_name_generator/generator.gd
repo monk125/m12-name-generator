@@ -99,7 +99,7 @@ func generate_name_pool(tags_to_get: Array[String] = [], excluded_tags: Array[St
 	var name_pool : Array[String] = []
 	for name: String in m12_name_dictionary.keys():
 		if excluded_tags.any(func(tag): return m12_name_dictionary[name].has(tag)):
-			break
+			continue
 		if tags_to_get.all(func(tag): return m12_name_dictionary[name].has(tag)):
 			name_pool.append(name)
 	
